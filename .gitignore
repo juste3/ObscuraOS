@@ -1,0 +1,47 @@
+# Ignore build artifacts
+/build/
+/bin/
+/obj/
+/out/
+/iso/
+/dist/
+
+# Ignore raw binary files
+*.bin
+*.img
+*.iso
+*.o
+*.elf
+*.map
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled bootloader/kernel if separate
+src/bootloader/*.bin
+src/kernel/*.bin
+
+# Optional: ignore QEMU-related dumps
+*.dmp
+*.core
+
+# Optional: ignore GitHub codespaces/devcontainer junk
+.devcontainer/
+*.devcontainer.json
+
+# Optional: ignore your OS's virtual disk if large
+*.vhd
+*.vdi
+*.qcow2
