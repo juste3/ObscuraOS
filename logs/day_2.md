@@ -8,7 +8,6 @@ This day felt like opening a cursed grimoire written in assembly. Got my kernel 
 - Created a Makefile to automate everything
 - Used `dd` to make a floppy image
 - Ran the image on QEMU
-- Started basic input: keyboard and mouse (setup stage)
 
 ## 🧪 Tools I used
 - NASM
